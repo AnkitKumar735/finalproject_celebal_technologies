@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Variables
-RESOURCE_GROUP="yourResourceGroup"
-ACI_NAME="yourACIName"
-ACR_NAME="youracrname"
+RESOURCE_GROUP="ResourceGroup"
+ACI_NAME="ACIName"
+ACR_NAME="acrname"
 IMAGE_NAME="azure-container-app:$(Build.BuildId)"
 LOCATION="eastus"
 CPU=1
